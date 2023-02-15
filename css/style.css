@@ -61,7 +61,7 @@
   color: #83869a;
   margin: 40px 0;
 }
-.sec1-left-block button {
+.sec1-left-block a {
   border: none;
   outline: none;
   font-family: "Plus Jakarta Sans";
@@ -73,6 +73,9 @@
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 31.5px;
   padding: 17px 33px;
+}
+.sec1-left-block a:hover {
+  cursor: pointer;
 }
 
 .sec1-right-block {
