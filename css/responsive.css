@@ -106,20 +106,32 @@
     margin-bottom: 40px;
   }
 }
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 518px) {
   .wrapper {
-    width: 80%;
+    display: flex;
     justify-content: center;
-    align-items: center;
     margin: 0 auto;
   }
   .sec1 {
-    width: 80%;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
+  .sec1-right-block {
+    max-width: 400px;
+    width: 100%;
+  }
+  .sec1-left-block {
+    max-width: 400px;
+    width: 100%;
+  }
   .sec2 {
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec2-lowerblock {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
